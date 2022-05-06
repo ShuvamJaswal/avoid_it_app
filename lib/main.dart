@@ -1,7 +1,6 @@
 import 'package:avoid_it/firebase_options.dart';
 import 'package:avoid_it/providers/game_provider.dart';
-import 'package:avoid_it/screens/create_room_screen.dart';
-import 'package:avoid_it/screens/main_screen.dart';
+import 'package:avoid_it/screens/home_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
-          home: const CreateRoomScreen(),
+          home: const HomeScreen(),
         ));
   }
 }
